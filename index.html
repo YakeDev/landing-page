@@ -8,66 +8,90 @@
   </head>
   <body>
     <header>
-      <nav>
-        <a href="#" id="logo">YakeDev</a>
-
-        <div>
-          <ul>
+      <div class="container navbar">
+        <div class="header-logo-text">
+          <a href="#" id="logo">YakeDev</a>
+        </div>
+        <nav class="nav">
+          <ul class="menu">
             <li><a href="http://">Home</a></li>
             <li><a href="http://">Services</a></li>
             <li><a href="http://">Contact</a></li>
           </ul>
+        </nav>
+      </div>
+
+      <section class="hero-section">
+        <div class="container hero-container">
+          <div class="left-container">
+            <h1 class="hero-main-tex">This website is awesome</h1>
+            <p class="hero-secondary-text">
+              This website has some subtext that goes here under the main title.
+              It's a smaller font and the color is lower contrast
+            </p>
+            <a href="#" class="hero-cta">Learn more</a>
+          </div>
+          <div class="right-container">
+            <img
+              src="img/5741153.png"
+              alt="hero section illustration"
+              srcset=""
+            />
+          </div>
         </div>
-      </nav>
+      </section>
     </header>
-    <section class="hero-section">
-      <div class="left-container">
-        <h1>This website is awesome</h1>
-        <p>
-          This website has some subtext that goes here under the main title.
-          It's a smaller font and the color is lower contrast
-        </p>
-        <a href="#">Learn more</a>
-      </div>
-      <div class="right-container">
-        <img src="" alt="hero section illustration" srcset="" />
-      </div>
-    </section>
-    <section class="services">
+    <section class="services container">
       <div class="service-container">
         <h2 class="section-title">What we do</h2>
         <div class="services-card-container">
           <div class="card">
-            <img src="" alt="" srcset="" />
+            <img
+              src="img/mobile-dynamic-gradient.png"
+              alt="mobile-dynamic-gradient 3d icone"
+              srcset=""
+            />
             <div class="card-body">
-              <h4 class="card-title">Service Title 01</h4>
+              <h4 class="card-title">Title 01</h4>
               <p class="card-text">
                 this is some subtext under an illustration or image
               </p>
             </div>
           </div>
           <div class="card">
-            <img src="" alt="" srcset="" />
+            <img
+              src="img/megaphone-dynamic-gradient.png"
+              alt="megaphone dynamic gradient 3d icone"
+              srcset=""
+            />
             <div class="card-body">
-              <h4 class="card-title">Service Title 02</h4>
+              <h4 class="card-title">Title 02</h4>
               <p class="card-text">
                 this is some subtext under an illustration or image
               </p>
             </div>
           </div>
           <div class="card">
-            <img src="" alt="" srcset="" />
+            <img
+              src="img/notebook-dynamic-gradient.png"
+              alt="notebook dynamic gradient 3d icone"
+              srcset=""
+            />
             <div class="card-body">
-              <h4 class="card-title">Service Title 03</h4>
+              <h4 class="card-title">Title 03</h4>
               <p class="card-text">
                 this is some subtext under an illustration or image
               </p>
             </div>
           </div>
           <div class="card">
-            <img src="" alt="" srcset="" />
+            <img
+              src="img/tea-cup-dynamic-gradient.png"
+              alt="tea cup dynamic gradient 3d icone"
+              srcset=""
+            />
             <div class="card-body">
-              <h4 class="card-title">Service Title 04</h4>
+              <h4 class="card-title">Title 04</h4>
               <p class="card-text">
                 this is some subtext under an illustration or image
               </p>
@@ -77,29 +101,40 @@
       </div>
     </section>
     <section class="quote-section">
-      <blockquote class="quote-text">
-        <p>
-          “The success of every website now depends on search engine
-          optimization and digital marketing strategy. If you are on the first
-          page of all major search engines, then you are ahead among your
-          competitors in terms of online sales.”
-        </p>
-        <footer><cite>― Dr. Christopher Dayagdag. </cite></footer>
-      </blockquote>
-    </section>
-    <section class="cta-section">
-      <div class="cta-container">
-        <div class="cta-content">
-          <h3 class="cta-title">Call to action! It's time!</h3>
-          <p class="cta-text">
-            Sign up for our product by clicking that button right over there!
+      <div class="container">
+        <blockquote class="quote-text">
+          <p>
+            “The success of every website now depends on search engine
+            optimization and digital marketing strategy. If you are on the first
+            page of all major search engines, then you are ahead among your
+            competitors in terms of online sales.”
           </p>
-        </div>
-        <button class="cta-button">Sign up</button>
+          <footer class="author">
+            <cite>― Dr. Christopher Dayagdag. </cite>
+          </footer>
+        </blockquote>
       </div>
     </section>
-    <footer>
-      <p class="copyright">&copy;copyright The YakeDev Project 2024</p>
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-container">
+          <div class="cta-content">
+            <h3 class="cta-title">Call to action! It's time!</h3>
+            <p class="cta-text">
+              Sign up for our product by clicking that button right over there!
+            </p>
+          </div>
+          <button class="btn-outline">Sign up</button>
+        </div>
+      </div>
+    </section>
+    <footer class="footer-page">
+      <div class="container">
+        <p class="copyright">
+          &copy; 2024 Copyright The
+          <a href="mailto:erickay.dev@gmail.com">YakeDev Project</a>
+        </p>
+      </div>
     </footer>
   </body>
 </html>
