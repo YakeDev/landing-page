@@ -56,9 +56,10 @@ header {
   text-align: left;
   text-decoration: none;
   color: #f9faf8;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 900;
   letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 /******************** Hero secction *******************/
@@ -102,9 +103,11 @@ a.hero-cta {
   border-radius: 12px;
   background: rgb(255, 115, 0);
   transition: cubic-bezier(0.75, 0.885, 0.32, 1.275);
+  cursor: pointer;
 }
 a.hero-cta:hover {
   background-color: hsl(203, 100%, 58%);
+  cursor: pointer;
 }
 
 /********************** What we do **************************/
@@ -188,6 +191,7 @@ section.cta-section {
   padding: 60px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .cta-content .cta-title {
@@ -202,12 +206,17 @@ section.cta-section {
 }
 
 .btn-outline {
-  background-color: hsla(0, 0%, 100%, 0);
+  background-color: #553cd3;
   border: 1px solid hsl(0, 0%, 100%);
   border-radius: 12px;
-  padding: 0px 42px;
+  padding: 12px 42px;
   color: #ffffff;
   font-size: 1.1em;
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn-outline:hover {
+  cursor: pointer;
 }
 
 /*********************** Footer ***********************/
