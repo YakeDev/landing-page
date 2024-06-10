@@ -133,7 +133,7 @@ h2.section-title {
   gap: 25px;
 }
 .card {
-  padding: 20px;
+  padding: 30px 30px 40px 30px;
   border-radius: 20px;
   border: 2px solid rgba(108, 85, 255, 1);
 }
